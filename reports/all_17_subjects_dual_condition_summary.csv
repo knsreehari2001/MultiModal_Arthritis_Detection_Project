@@ -1,0 +1,18 @@
+subject,hand,static_palm_temp_c,dynamic_palm_temp_c,static_mean_joint_temp_c,dynamic_mean_joint_temp_c,static_max_delta_t_c,dynamic_max_delta_t_c,dynamic_mean_flexion_rom_deg,static_overall_risk_pct,dynamic_overall_risk_pct,combined_overall_risk_pct,diagnosis,dashboard_path
+S1,left hand,31.38,32.03,30.7,31.74,0.01,0.24,90.4,3.21,4.35,3.58,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S1_combined.png
+S2,left hand,35.86,35.66,35.55,35.82,0.27,0.4,80.6,4.02,9.68,6.72,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S2_combined.png
+S3,left hand,32.95,33.47,32.88,33.37,0.3,0.36,96.0,6.18,4.58,5.01,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S3_combined.png
+S4,left hand,34.33,34.06,34.29,34.12,0.41,0.47,74.1,5.75,8.65,6.96,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S4_combined.png
+S5,left hand,32.75,32.91,32.62,32.61,0.51,0.45,89.3,6.46,5.77,5.64,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S5_combined.png
+S6,left hand,33.6,33.65,33.34,33.41,0.26,0.14,88.4,4.03,4.65,3.95,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S6_combined.png
+S7,left hand,33.26,33.26,33.12,33.0,0.66,0.16,94.5,7.44,3.88,5.39,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S7_combined.png
+S8,left hand,34.05,34.46,34.31,35.16,0.83,1.32,81.4,12.55,23.53,16.87,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S8_combined.png
+S9,left hand,32.03,32.32,31.66,32.42,0.25,0.46,93.0,4.35,6.12,4.76,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S9_combined.png
+S10,left hand,33.81,33.75,33.93,33.86,0.7,0.76,69.6,8.16,10.75,8.97,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S10_combined.png
+S11,left hand,34.5,34.77,34.27,34.36,0.28,0.16,90.5,4.57,4.48,4.37,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S11_combined.png
+S12,left hand,34.84,34.81,34.88,34.81,0.7,0.55,94.8,8.1,6.69,7.26,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S12_combined.png
+S13,left hand,33.4,33.34,33.42,33.16,0.29,0.13,94.5,4.98,4.27,4.46,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S13_combined.png
+S14,left hand,31.06,29.8,30.04,29.44,-0.46,0.08,86.5,2.45,5.75,4.1,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S14_combined.png
+S15,left hand,31.64,31.84,31.32,31.74,0.3,0.6,95.7,4.26,7.2,5.73,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S15_combined.png
+S16,left hand,32.16,32.73,31.03,32.82,-0.63,0.34,101.3,3.47,5.77,4.31,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S16_combined.png
+S17,left hand,30.96,30.35,30.34,29.85,0.15,0.1,85.6,5.77,5.55,5.48,NORMAL / LOW RISK,reports/subject_reports\diagnostic_report_S17_combined.png

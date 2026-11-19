@@ -1,0 +1,42 @@
+# Dataset folder containing large raw video (.mp4) and radiometric (.npy) sequences
+data/
+*.npy
+*.mp4
+
+# Precomputed extraction cache
+cache/
+
+# Legacy large checkpoints (>100MB exceeds GitHub push limit)
+checkpoints/*_dual_stream_model.keras
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+dataset:
+  root_dir: "data"
+  sequence_length: 30       # Normalized temporal window (T=30 frames)
+  roi_size: 64              # 64x64 pixel articular ROI per joint
+  batch_size: 16
+  max_recordings: 8         # Memory-safe limit for current available system RAM (<1GB)
+
+clinical_thresholds:
+  delta_t_synovitis_c: 1.0  # Focal joint ΔT above palm reference (°C) for synovitis
+  ulnar_drift_deg: 14.0     # Pathological ulnar deviation threshold (degrees)
+  min_dynamic_rom_deg: 45.0 # Minimum healthy flexion range of motion in open-close task
+
+training:
+  epochs: 25
+  learning_rate: 0.0005
+  focal_loss_gamma: 2.0
+  focal_loss_alpha: 0.50
+  random_seed: 42
+
+model:
+  channels: 4               # RGB (3) + Relative ΔT Thermal (1)
+  kinematic_features: 4     # [flexion_deg, angular_vel, ulnar_dev_deg, task_is_dynamic]
+  num_joints: 10
